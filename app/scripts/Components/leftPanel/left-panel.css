@@ -1,0 +1,55 @@
+div {
+    font-family: lato;
+}
+.leftPanelLi {
+    list-style-type: none;
+    color: #E0E5E0;
+    margin: 10px 0px;
+    padding: 20px 0px;
+    width: 95%;
+    /* padding-left: 5px; */
+    border-left: 10px solid transparent;
+}
+.leftPanelLi :hover {
+    background: #4f5259;
+    border-left-color: #FCB42A;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #E0E5E0;
+}
+.Nav-ul {
+    padding: 0;
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.left-panel-div {
+    width: 17%;
+    min-height: 1080px;
+    background: #011B32;
+
+}
+.profile-section {
+    height: 80px;
+    color: #E0E5E0;
+}
+.Nav-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 30px;
+
+}

@@ -1,0 +1,38 @@
+.navHeight {
+    position: fixed;
+    color: #fff;
+    background: #2d2d2d6e;
+    height: 60px;
+    width: 100%;
+    font-size: 14px;
+    z-index: 99999999;
+}
+
+.biz-logo {
+    width: 120px;
+}
+
+.navHeight a:hover {
+    border-bottom: 1px solid #ffd83d;
+}
+
+.schedule {
+    text-align: center;
+    width: 140px;
+    padding: 5px;
+    border: 1px solid #ffd83d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.schedule a:hover {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 579px) {
+    .navHeight {
+        display: none;
+    }
+}
